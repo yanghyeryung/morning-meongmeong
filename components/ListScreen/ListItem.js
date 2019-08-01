@@ -92,6 +92,7 @@ const styles = StyleSheet.create({
     day: {
         flex: 1,
         textAlign: 'center',
+        color: colors.font,
     },
     activeDay: {
         color: colors.darker,
