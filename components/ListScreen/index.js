@@ -72,32 +72,53 @@ class ListScreen extends Component {
         utils.setList(JSON.stringify(dataList));
     };
 
+    delData = (key) => {
+        let dataList = JSON.parse(JSON.stringify(this.state.dataList));
+        let delIdx;
+
+        dataList.map((data, idx) => {
+            if(data.key === key) {
+                delIdx = idx;
+            }
+        });
+
+        dataList.splice(delIdx, 1);
+
+        this.setState({ dataList: dataList });
+        utils.setList(JSON.stringify(dataList));
+    };
+
     changeSwitch = (key, toggle) => {
         this.setData(key, { toggle: toggle });
     };
 
-    _renderItem = ({ item }) => {
+    renderItem = ({ item }) => {
         return (
             <ListItem listKey={item.key} ampm={item.ampm} hour={item.hour} second={item.second}
-                      day={item.day} toggle={item.toggle} changeSwitch={this.changeSwitch}></ListItem>
+                      day={item.day} toggle={item.toggle} changeSwitch={this.changeSwitch}
+                      moveEdit={this.moveEdit} delData={this.delData}></ListItem>
         );
     };
 
-    _onPressIn = () => {
+    onPressIn = () => {
         this.props.navigation.navigate('Edit');
         this.setState({ pressing: true });
     };
 
-    _onPressOut = () => {
+    onPressOut = () => {
         this.setState({ pressing: false });
+    };
+
+    moveEdit = (data) => {
+        this.props.navigation.navigate('Edit', data);
     };
 
     render() {
         return (
             <View style={styles.container}>
-                <FlatList data={this.state.dataList} renderItem={this._renderItem}/>
+                <FlatList data={this.state.dataList} renderItem={this.renderItem}/>
                 <TouchableHighlight underlayColor='transparent' style={styles.button}
-                                    onPressIn={this._onPressIn} onPressOut={this._onPressOut}>
+                                    onPressIn={this.onPressIn} onPressOut={this.onPressOut}>
                     <Icon name='plus-circle' type='font-awesome'
                           color={this.state.pressing ? colors.darker : colors.dark} size={50}></Icon>
                 </TouchableHighlight>
