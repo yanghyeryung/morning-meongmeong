@@ -1,19 +1,20 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import { createStackNavigator, createAppContainer } from "react-navigation";
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-    </View>
-  );
-}
+import Header from "./components/Header";
+import ListScreen from "./components/ListScreen";
+import AddEditScreen from "./components/AddEditScreen";
+import AlarmScreen from "./components/AlarmScreen";
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+let headerOptions = {
+    headerTitle: <Header />,
+    headerLeft: null
+};
+
+let navigator = createStackNavigator({
+    List: { screen: ListScreen, navigationOptions: headerOptions },
+    Edit: { screen: AddEditScreen, navigationOptions: headerOptions },
+    Alarm: { screen: AlarmScreen }
 });
+
+export default createAppContainer(navigator);
