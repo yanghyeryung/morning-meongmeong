@@ -7,25 +7,6 @@ import utils from "../../utils";
 
 import ListItem from "./ListItem";
 
-utils.setList([
-    {
-        key: '1',
-        ampm: 'AM',
-        hour: 7,
-        second: 40,
-        day: ['월', '화', '수', '목', '금', '토', '일'],
-        toggle: true,
-    },
-    {
-        key: '2',
-        ampm: 'AM',
-        hour: 11,
-        second: 41,
-        day: ['월', '화', '수', '목'],
-        toggle: false,
-    }
-]);
-
 class ListScreen extends Component {
     constructor(props) {
         super(props);
@@ -38,25 +19,23 @@ class ListScreen extends Component {
         this.getTotalData();
     }
 
+    componentDidMount() {
+        this.focusListener = this.props.navigation.addListener('didFocus', () => {
+            this.getTotalData();
+        });
+    }
+
+    componentWillUnmount() {
+        this.focusListener.remove();
+    }
+
     getTotalData = () => {
         utils.getList()
             .then(value => {
-                value && this.setState({ dataList: JSON.parse(value) });
+                this.setState({ dataList: value ? value : [] });
             })
             .catch(error => console.error('AsyncStorage error: ' + error.message))
             .done();
-    };
-
-    getData = (key) => {
-        let returnData;
-
-        this.state.dataList.map(data => {
-            if(data.key === key) {
-                returnData = data;
-            }
-        });
-
-        return returnData;
     };
 
     setData = (key, obj) => {
@@ -69,7 +48,7 @@ class ListScreen extends Component {
         });
 
         this.setState({ dataList: dataList });
-        utils.setList(JSON.stringify(dataList));
+        utils.setList(dataList);
     };
 
     delData = (key) => {
@@ -84,8 +63,12 @@ class ListScreen extends Component {
 
         dataList.splice(delIdx, 1);
 
+        dataList.map((data, idx) => {
+            data.key = idx+'';
+        });
+
         this.setState({ dataList: dataList });
-        utils.setList(JSON.stringify(dataList));
+        utils.setList(dataList);
     };
 
     changeSwitch = (key, toggle) => {
@@ -94,9 +77,9 @@ class ListScreen extends Component {
 
     renderItem = ({ item }) => {
         return (
-            <ListItem listKey={item.key} ampm={item.ampm} hour={item.hour} second={item.second}
-                      day={item.day} toggle={item.toggle} changeSwitch={this.changeSwitch}
-                      moveEdit={this.moveEdit} delData={this.delData}></ListItem>
+            <ListItem listKey={item.key} ampm={item.ampm} hour={item.hour} second={item.second} toggle={item.toggle}
+                      days={item.days} dogCounts={item.dogCounts} dogSpeeds={item.dogSpeeds}
+                      changeSwitch={this.changeSwitch} moveEdit={this.moveEdit} delData={this.delData}></ListItem>
         );
     };
 

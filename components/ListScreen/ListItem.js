@@ -4,7 +4,14 @@ import { Icon } from "react-native-elements";
 
 import fonts from "../../styles/fonts";
 import colors from "../../styles/colors";
-const totalDay = ['월', '화', '수', '목', '금', '토', '일'];
+const totalDays = [
+    {label: '월', key: 'mon'},
+    {label: '화', key: 'tue'},
+    {label: '수', key: 'wen'},
+    {label: '목', key: 'thu'},
+    {label: '금', key: 'fri'},
+    {label: '토', key: 'sat'},
+    {label: '일', key: 'sun'}];
 
 class ListItem extends Component {
     constructor(props) {
@@ -19,12 +26,8 @@ class ListItem extends Component {
         this.props.changeSwitch(this.props.listKey, newValue);
     };
 
-    onPress = () => {
-        if(this.state.editing) {
-            this.setState({ editing: false });
-        }else {
-            this.props.moveEdit(this.props);
-        }
+    moveEditScreen = () => {
+        this.props.moveEdit(this.props);
     };
 
     showDeleteButton = () => {
@@ -33,11 +36,12 @@ class ListItem extends Component {
 
     delData = () => {
         this.props.delData(this.props.listKey);
+        this.setState({ editing: false });
     };
 
     render() {
         return (
-            <TouchableOpacity onPress={this.onPress} onLongPress={this.showDeleteButton}>
+            <TouchableOpacity onPress={this.moveEditScreen} onLongPress={this.showDeleteButton}>
                 <View style={styles.container}>
                     {
                         this.state.editing &&  <View style={styles.overlay}>
@@ -48,11 +52,10 @@ class ListItem extends Component {
                     <Text style={[fonts.normal, styles.ampm]}>{this.props.ampm}</Text>
                     <Text style={[fonts.big, styles.time]}>{this.props.hour}:{this.props.second}</Text>
                     <View style={[fonts.normal, styles.days]}>{
-                        totalDay.map((day, idx) => <Text key={idx} style={[styles.day, this.props.day.indexOf(day) !== -1 && styles.activeDay]}>{day}</Text>)
+                        totalDays.map((day, idx) => <Text key={idx} style={[styles.day, this.props.days[day.key] && styles.activeDay]}>{day.label}</Text>)
                     }</View>
                     <Switch value={this.props.toggle} thumbColor={this.props.toggle ? colors.dark : '#f3f3f3'}
-                            onValueChange={this.toggle} trackColor={{true: colors.base, false: '#e1e1e1'}}
-                    ></Switch>
+                            onValueChange={this.toggle} trackColor={{true: colors.base, false: '#e1e1e1'}}></Switch>
                 </View>
             </TouchableOpacity>
         );
@@ -98,7 +101,7 @@ const styles = StyleSheet.create({
         color: colors.darker,
     },
     toggle: {
-        backgroundColor: colors.darker,
+        shadowColor: 'transparent'
     }
 });
 
