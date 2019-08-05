@@ -25,8 +25,27 @@ add = (data) => {
         .done();
 };
 
+edit = (data) => {
+    this.getList()
+        .then(value => {
+            value = value ? value : [];
+
+            value.map((item) => {
+                if(item.key === data.key) {
+                    Object.assign(item, data);
+
+                };
+            });
+
+            this.setList(value);
+        })
+        .catch(error => console.error('AsyncStorage error: ' + error.message))
+        .done();
+};
+
 export default {
     setList: setList,
     getList: getList,
     add: add,
+    edit: edit,
 }

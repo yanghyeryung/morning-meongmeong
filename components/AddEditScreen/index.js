@@ -11,6 +11,7 @@ class AddEditScreen extends Component {
         super(props);
 
         this.state = {
+            key: null,
             ampm: 'AM',
             hour: '01',
             second: '00',
@@ -31,11 +32,12 @@ class AddEditScreen extends Component {
     componentDidMount() {
         this.focusListener = this.props.navigation.addListener('willFocus', () => {
             const { navigation } = this.props;
-            const ampm = navigation.getParam('ampm');
+            const key = navigation.getParam('listKey');
 
-            if(ampm) {
+            if(key) {
                 this.setState({
-                    ampm: ampm,
+                    key: key,
+                    ampm: navigation.getParam('ampm'),
                     hour: navigation.getParam('hour'),
                     second: navigation.getParam('second'),
                     days: navigation.getParam('days'),
@@ -73,7 +75,8 @@ class AddEditScreen extends Component {
     };
 
     save = () => {
-        utils.add(this.state);
+        let data = Object.assign({}, this.state);
+        this.state.key ? utils.edit(data) : utils.add(data);
         this.props.navigation.navigate('List');
     };
 
