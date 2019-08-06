@@ -103,7 +103,7 @@ class ListScreen extends Component {
                 <TouchableHighlight underlayColor='transparent' style={styles.button}
                                     onPressIn={this.onPressIn} onPressOut={this.onPressOut}>
                     <Icon name='plus-circle' type='font-awesome'
-                          color={this.state.pressing ? colors.darker : colors.dark} size={50}></Icon>
+                          color={this.state.pressing ? '#d29d9d' : colors.darker} size={50}></Icon>
                 </TouchableHighlight>
             </View>
         );

@@ -4,6 +4,7 @@ import { Icon } from "react-native-elements";
 
 import fonts from "../../styles/fonts";
 import colors from "../../styles/colors";
+
 const totalDays = [
     {label: '월', key: 'mon'},
     {label: '화', key: 'tue'},
@@ -58,7 +59,7 @@ class ListItem extends Component {
                     <View style={[fonts.normal, styles.days]}>{
                         totalDays.map((day, idx) => <Text key={idx} style={[styles.day, this.props.days[day.key] && styles.activeDay]}>{day.label}</Text>)
                     }</View>
-                    <Switch value={this.props.toggle} thumbColor={this.props.toggle ? colors.dark : '#f3f3f3'}
+                    <Switch value={this.props.toggle} thumbColor={this.props.toggle ? colors.darker : '#f3f3f3'}
                             onValueChange={this.toggle} trackColor={{true: colors.base, false: '#e1e1e1'}}></Switch>
                 </View>
             </TouchableOpacity>

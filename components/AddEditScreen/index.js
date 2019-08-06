@@ -75,10 +75,10 @@ class AddEditScreen extends Component {
     };
 
     saveData = () => {
-        let data = Object.assign({}, this.state);
-
-        this.getList()
+        utils.getList()
             .then(value => {
+                let data = Object.assign({}, this.state);
+
                 value = value ? value : [];
 
                 if(this.state.key){
@@ -94,13 +94,12 @@ class AddEditScreen extends Component {
                     value.map((item, idx) => {item.key = idx+'';});
                 }
 
-                this.setList(value);
+                utils.setList(value);
+
+                this.props.navigation.navigate('List');
             })
             .catch(error => console.error('AsyncStorage error: ' + error.message))
             .done();
-
-        this.state.key ? utils.edit(data) : utils.add(data);
-        this.props.navigation.navigate('List');
     };
 
     render() {

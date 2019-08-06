@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { StyleSheet, View, Image } from "react-native";
+
 import colors from "../../styles/colors";
 
 class Header extends Component {
