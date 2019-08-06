@@ -26,8 +26,12 @@ class ListItem extends Component {
         this.props.changeSwitch(this.props.listKey, newValue);
     };
 
-    moveEditScreen = () => {
-        this.props.moveEdit(this.props);
+    onPress = () => {
+        if(this.state.editing) {
+            this.setState({ editing: false });
+        }else{
+            this.props.moveEdit(this.props);
+        }
     };
 
     showDeleteButton = () => {
@@ -41,7 +45,7 @@ class ListItem extends Component {
 
     render() {
         return (
-            <TouchableOpacity onPress={this.moveEditScreen} onLongPress={this.showDeleteButton}>
+            <TouchableOpacity onPress={this.onPress} onLongPress={this.showDeleteButton}>
                 <View style={styles.container}>
                     {
                         this.state.editing &&  <View style={styles.overlay}>
