@@ -74,8 +74,31 @@ class AddEditScreen extends Component {
         this.setState({dogSpeeds: dogSpeeds})
     };
 
-    save = () => {
+    saveData = () => {
         let data = Object.assign({}, this.state);
+
+        this.getList()
+            .then(value => {
+                value = value ? value : [];
+
+                if(this.state.key){
+                    // edit
+                    value.map((item) => {
+                        if(item.key === data.key) {
+                            Object.assign(item, data);
+                        };
+                    });
+                }else{
+                    // add
+                    value.push(data);
+                    value.map((item, idx) => {item.key = idx+'';});
+                }
+
+                this.setList(value);
+            })
+            .catch(error => console.error('AsyncStorage error: ' + error.message))
+            .done();
+
         this.state.key ? utils.edit(data) : utils.add(data);
         this.props.navigation.navigate('List');
     };
@@ -171,7 +194,7 @@ class AddEditScreen extends Component {
                 </View>
                 <View style={styles.buttonContainer}>
                     <Button icon={<Icon name='save' type='font-awesome' size={15} color='white' iconStyle={styles.buttonIcon}/>}
-                            title='저장' buttonStyle={styles.button} onPress={this.save}/>
+                            title='저장' buttonStyle={styles.button} onPress={this.saveData}/>
                 </View>
             </View>
         );

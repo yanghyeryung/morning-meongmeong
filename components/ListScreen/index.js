@@ -16,12 +16,12 @@ class ListScreen extends Component {
             pressing: false
         };
 
-        this.getTotalData();
+        this.getList();
     }
 
     componentDidMount() {
         this.focusListener = this.props.navigation.addListener('didFocus', () => {
-            this.getTotalData();
+            this.getList();
         });
     }
 
@@ -29,7 +29,7 @@ class ListScreen extends Component {
         this.focusListener.remove();
     }
 
-    getTotalData = () => {
+    getList = () => {
         utils.getList()
             .then(value => {
                 this.setState({ dataList: value ? value : [] });
@@ -38,7 +38,7 @@ class ListScreen extends Component {
             .done();
     };
 
-    setData = (key, obj) => {
+    editData = (key, obj) => {
         let dataList = JSON.parse(JSON.stringify(this.state.dataList));
 
         dataList.map(data => {
@@ -51,7 +51,7 @@ class ListScreen extends Component {
         utils.setList(dataList);
     };
 
-    delData = (key) => {
+    deleteData = (key) => {
         let dataList = JSON.parse(JSON.stringify(this.state.dataList));
         let delIdx;
 
@@ -72,19 +72,19 @@ class ListScreen extends Component {
     };
 
     changeSwitch = (key, toggle) => {
-        this.setData(key, { toggle: toggle });
+        this.editData(key, { toggle: toggle });
     };
 
     renderItem = ({ item }) => {
         return (
             <ListItem listKey={item.key} ampm={item.ampm} hour={item.hour} second={item.second} toggle={item.toggle}
                       days={item.days} dogCounts={item.dogCounts} dogSpeeds={item.dogSpeeds}
-                      changeSwitch={this.changeSwitch} moveEdit={this.moveEdit} delData={this.delData}></ListItem>
+                      changeSwitch={this.changeSwitch} moveEditScreen={this.moveEditScreen} deleteData={this.deleteData}></ListItem>
         );
     };
 
     onPressIn = () => {
-        this.props.navigation.navigate('Edit');
+        this.moveEditScreen();
         this.setState({ pressing: true });
     };
 
@@ -92,7 +92,7 @@ class ListScreen extends Component {
         this.setState({ pressing: false });
     };
 
-    moveEdit = (data) => {
+    moveEditScreen = (data) => {
         this.props.navigation.navigate('Edit', data);
     };
 

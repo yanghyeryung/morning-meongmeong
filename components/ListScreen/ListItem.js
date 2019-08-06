@@ -30,7 +30,7 @@ class ListItem extends Component {
         if(this.state.editing) {
             this.setState({ editing: false });
         }else{
-            this.props.moveEdit(this.props);
+            this.props.moveEditScreen(this.props);
         }
     };
 
@@ -38,8 +38,8 @@ class ListItem extends Component {
         this.setState({ editing: true });
     };
 
-    delData = () => {
-        this.props.delData(this.props.listKey);
+    deleteData = () => {
+        this.props.deleteData(this.props.listKey);
         this.setState({ editing: false });
     };
 
@@ -50,7 +50,7 @@ class ListItem extends Component {
                     {
                         this.state.editing &&  <View style={styles.overlay}>
                             <Icon name='times-circle' type='font-awesome'
-                                  color={colors.darker} size={50} onPress={this.delData}></Icon>
+                                  color={colors.darker} size={50} onPress={this.deleteData}></Icon>
                         </View>
                     }
                     <Text style={[fonts.normal, styles.ampm]}>{this.props.ampm}</Text>
