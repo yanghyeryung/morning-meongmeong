@@ -20,7 +20,7 @@ class ListScreen extends Component {
     }
 
     componentDidMount() {
-        this.focusListener = this.props.navigation.addListener('willFocus', () => {
+        this.focusListener = this.props.navigation.addListener('didFocus', () => {
             this.getTotalData();
         });
     }
