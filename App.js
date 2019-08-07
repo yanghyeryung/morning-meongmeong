@@ -11,10 +11,10 @@ let headerOptions = {
     headerLeft: null
 };
 
-let navigator = createStackNavigator({
-    List: { screen: ListScreen, navigationOptions: headerOptions },
-    Edit: { screen: AddEditScreen, navigationOptions: headerOptions },
-    Alarm: { screen: AlarmScreen }
-});
+// let navigator = createStackNavigator({
+//     List: { screen: ListScreen, navigationOptions: headerOptions },
+//     Edit: { screen: AddEditScreen, navigationOptions: headerOptions },
+// });
 
-export default createAppContainer(navigator);
+export default AlarmScreen;
+// export default createAppContainer(navigator);
