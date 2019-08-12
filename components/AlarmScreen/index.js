@@ -120,7 +120,7 @@ class AlarmScreen extends Component {
 
         this.state.dogs.map((dog, idx) => {
             dogs.push(
-                <TouchableOpacity key={idx} onPress={() => {this.removeDog(dog.key);}}
+                <TouchableOpacity key={dog.key} onPress={() => {this.removeDog(dog.key);}}
                                   style={[styles.dogContainer, {left: dog.left, top: dog.top}]}>
                     <Image source={require("../../assets/icon.png")} style={styles.dog}/>
                 </TouchableOpacity>
