@@ -1,8 +1,6 @@
 import React, { Component } from "react";
-import { StyleSheet, View, TouchableHighlight, FlatList } from "react-native";
-import { Icon } from "react-native-elements";
+import { StyleSheet, View, TouchableOpacity, FlatList, Image } from "react-native";
 
-import colors from "../../styles/colors";
 import utils from "../../utils";
 
 import ListItem from "./ListItem";
@@ -13,7 +11,6 @@ class ListScreen extends Component {
 
         this.state = {
             dataList: [],
-            pressing: false
         };
 
         this.getList();
@@ -83,15 +80,6 @@ class ListScreen extends Component {
         );
     };
 
-    onPressIn = () => {
-        this.moveEditScreen();
-        this.setState({ pressing: true });
-    };
-
-    onPressOut = () => {
-        this.setState({ pressing: false });
-    };
-
     moveEditScreen = (data) => {
         this.props.navigation.navigate('Edit', data);
     };
@@ -100,11 +88,9 @@ class ListScreen extends Component {
         return (
             <View style={styles.container}>
                 <FlatList data={this.state.dataList} renderItem={this.renderItem}/>
-                <TouchableHighlight underlayColor='transparent' style={styles.button}
-                                    onPressIn={this.onPressIn} onPressOut={this.onPressOut}>
-                    <Icon name='plus-circle' type='font-awesome'
-                          color={this.state.pressing ? '#d29d9d' : colors.darker} size={50}></Icon>
-                </TouchableHighlight>
+                <TouchableOpacity style={styles.button} onPress={this.moveEditScreen}>
+                    <Image name='rocket' source={require("../../assets/plus.png")} style={styles.img}></Image>
+                </TouchableOpacity>
             </View>
         );
     }
@@ -118,6 +104,10 @@ const styles = StyleSheet.create({
         position: 'absolute',
         bottom: 10,
         right: 10,
+        height: 50,
+        width: 50,
+    },
+    img: {
         height: 50,
         width: 50,
     }

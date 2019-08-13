@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { StyleSheet, View, Text, Picker } from "react-native";
-import { CheckBox, Button, Icon } from 'react-native-elements';
+import { StyleSheet, View, Text, Picker, Button } from "react-native";
 
 import utils from "../../utils";
 import fonts from "../../styles/fonts";
@@ -124,19 +123,19 @@ class AddEditScreen extends Component {
                 <View styles={styles.form}>
                     <Text style={[fonts.normal, styles.labelContainer]}>시간</Text>
                     <View style={styles.valueContainer}>
-                        <Picker selectedValue={this.state.ampm} style={{height: 50, width: 100}}
+                        <Picker selectedValue={this.state.ampm} style={styles.value}
                             onValueChange={(itemValue) => this.setState({ampm: itemValue})}>
                             <Picker.Item label="AM" value="AM" />
                             <Picker.Item label="PM" value="PM" />
                         </Picker>
 
-                        <Picker selectedValue={this.state.hour} style={{height: 50, width: 100}} mode="dialog"
+                        <Picker selectedValue={this.state.hour} style={styles.value}
                                 onValueChange={(itemValue) => this.setState({hour: itemValue})}>
                             {hourPickerItems}
 
                         </Picker>
 
-                        <Picker selectedValue={this.state.second} style={{height: 50, width: 100}}
+                        <Picker selectedValue={this.state.second} style={styles.value}
                                 onValueChange={(itemValue) => this.setState({second: itemValue})}>
                             {secondPickerItems}
                         </Picker>
@@ -144,56 +143,72 @@ class AddEditScreen extends Component {
 
                     <Text style={[fonts.normal, styles.labelContainer]}>일</Text>
                     <View style={styles.valueContainer}>
-                        <CheckBox title='월' checked={this.state.days.mon} checkedColor={colors.darker}
-                                  onPress={() => this.changeDays('mon')} containerStyle={styles.check}/>
-                        <CheckBox title='화' checked={this.state.days.tue} checkedColor={colors.darker}
-                                  onPress={() => this.changeDays('tue')} containerStyle={styles.check}/>
-                        <CheckBox title='수' checked={this.state.days.wen} checkedColor={colors.darker}
-                                  onPress={() => this.changeDays('wen')} containerStyle={styles.check}/>
-                        <CheckBox title='목' checked={this.state.days.thu} checkedColor={colors.darker}
-                                  onPress={() => this.changeDays('thu')} containerStyle={styles.check}/>
-                    </View>
-                    <View style={styles.valueContainer}>
-                        <CheckBox title='금' checked={this.state.days.fri} checkedColor={colors.darker}
-                                  onPress={() => this.changeDays('fri')} containerStyle={styles.check}/>
-                        <CheckBox title='토' checked={this.state.days.sat} checkedColor={colors.darker}
-                                  onPress={() => this.changeDays('sat')} containerStyle={styles.check}/>
-                        <CheckBox title='일' checked={this.state.days.sun} checkedColor={colors.darker}
-                                  onPress={() => this.changeDays('sun')} containerStyle={styles.check}/>
-                        <View style={styles.empty}></View>
+                        <View style={styles.value}>
+                            <Button title='월' color={this.state.days.mon ? colors.darker : colors.font}
+                                    onPress={() => this.changeDays('mon')} style={styles.value}/>
+                        </View>
+                        <View style={styles.value}>
+                            <Button title='화' color={this.state.days.tue ? colors.darker : colors.font}
+                                    onPress={() => this.changeDays('tue')} style={styles.value}/>
+                        </View>
+                        <View style={styles.value}>
+                            <Button title='수' color={this.state.days.wen ? colors.darker : colors.font}
+                                    onPress={() => this.changeDays('wen')} style={styles.value}/>
+                        </View>
+                        <View style={styles.value}>
+                            <Button title='목' color={this.state.days.thu ? colors.darker : colors.font}
+                                    onPress={() => this.changeDays('thu')} style={styles.value}/>
+                        </View>
+                        <View style={styles.value}>
+                            <Button title='금' color={this.state.days.fri ? colors.darker : colors.font}
+                                    onPress={() => this.changeDays('fri')} style={styles.value}/>
+                        </View>
+                        <View style={styles.value}>
+                            <Button title='토' color={this.state.days.sat ? colors.darker : colors.font}
+                                    onPress={() => this.changeDays('sat')} style={styles.value}/>
+                        </View>
+                        <View style={styles.value}>
+                            <Button title='일' color={this.state.days.sun ? colors.darker : colors.font}
+                                    onPress={() => this.changeDays('sun')} style={styles.value}/>
+                        </View>
                     </View>
                     <Text style={[fonts.normal, styles.labelContainer]}>멍멍이 수</Text>
                     <View style={styles.valueContainer}>
-                        <CheckBox title='2' checked={this.state.dogCounts.two} checkedColor={colors.darker}
-                                  checkedIcon='dot-circle-o' uncheckedIcon='circle-o'
-                                  onPress={() => this.changeDogCounts('two')} containerStyle={styles.check}/>
-                        <CheckBox title='4' checked={this.state.dogCounts.four} checkedColor={colors.darker}
-                                  checkedIcon='dot-circle-o' uncheckedIcon='circle-o'
-                                  onPress={() => this.changeDogCounts('four')} containerStyle={styles.check}/>
-                        <CheckBox title='6' checked={this.state.dogCounts.six} checkedColor={colors.darker}
-                                  checkedIcon='dot-circle-o' uncheckedIcon='circle-o'
-                                  onPress={() => this.changeDogCounts('six')} containerStyle={styles.check}/>
-                        <CheckBox title='8' checked={this.state.dogCounts.eight} checkedColor={colors.darker}
-                                  checkedIcon='dot-circle-o' uncheckedIcon='circle-o'
-                                  onPress={() => this.changeDogCounts('eight')} containerStyle={styles.check}/>
+                        <View style={styles.value}>
+                            <Button title='2' color={this.state.dogCounts.two ? colors.darker : colors.font}
+                                    onPress={() => this.changeDogCounts('two')} style={styles.value}/>
+                        </View>
+                        <View style={styles.value}>
+                            <Button title='4' color={this.state.dogCounts.four ? colors.darker : colors.font}
+                                    onPress={() => this.changeDogCounts('four')} style={styles.value}/>
+                        </View>
+                        <View style={styles.value}>
+                            <Button title='6' color={this.state.dogCounts.six ? colors.darker : colors.font}
+                                    onPress={() => this.changeDogCounts('six')} style={styles.value}/>
+                        </View>
+                        <View style={styles.value}>
+                            <Button title='8' color={this.state.dogCounts.eight ? colors.darker : colors.font}
+                                    onPress={() => this.changeDogCounts('eight')} style={styles.value}/>
+                        </View>
                     </View>
-
                     <Text style={[fonts.normal, styles.labelContainer]}>멍멍이 속도</Text>
                     <View style={styles.valueContainer}>
-                        <CheckBox title='느림' checked={this.state.dogSpeeds.slow} checkedColor={colors.darker}
-                                  checkedIcon='dot-circle-o' uncheckedIcon='circle-o'
-                                  onPress={() => this.changeSpeeds('slow')} containerStyle={styles.check}/>
-                        <CheckBox title='보통' checked={this.state.dogSpeeds.normal} checkedColor={colors.darker}
-                                  checkedIcon='dot-circle-o' uncheckedIcon='circle-o'
-                                  onPress={() => this.changeSpeeds('normal')} containerStyle={styles.check}/>
-                        <CheckBox title='빠름' checked={this.state.dogSpeeds.fast} checkedColor={colors.darker}
-                                  checkedIcon='dot-circle-o' uncheckedIcon='circle-o'
-                                  onPress={() => this.changeSpeeds('fast')} containerStyle={styles.check}/>
+                        <View style={styles.value}>
+                            <Button title='느림' color={this.state.dogSpeeds.slow ? colors.darker : colors.font}
+                                    onPress={() => this.changeSpeeds('slow')} />
+                        </View>
+                        <View style={styles.value}>
+                            <Button title='보통' color={this.state.dogSpeeds.normal ? colors.darker : colors.font}
+                                    onPress={() => this.changeSpeeds('normal')} />
+                        </View>
+                        <View style={styles.value}>
+                            <Button title='빠름' color={this.state.dogSpeeds.fast ? colors.darker : colors.font}
+                                    onPress={() => this.changeSpeeds('fast')} />
+                        </View>
                     </View>
                 </View>
                 <View style={styles.buttonContainer}>
-                    <Button icon={<Icon name='save' type='font-awesome' size={15} color='white' iconStyle={styles.buttonIcon}/>}
-                            title='저장' buttonStyle={styles.button} onPress={this.saveData}/>
+                    <Button title='저장' style={styles.button} color={colors.darker} onPress={this.saveData}/>
                 </View>
             </View>
         );
@@ -217,18 +232,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
     },
     value: {
-        color: colors.darkerFont,
-    },
-    check: {
-        margin: 0,
-        padding: 0,
-        backgroundColor: 'transparent',
-        borderColor: 'transparent',
         flex: 1,
-    },
-    empty: {
-        flex: 1,
-        marginRight: 20,
     },
     buttonContainer: {
         position: 'absolute',
@@ -238,11 +242,7 @@ const styles = StyleSheet.create({
     },
     button: {
         flex: 1,
-        backgroundColor: colors.darker,
     },
-    buttonIcon: {
-        marginRight: 4,
-    }
 });
 
 export default AddEditScreen;

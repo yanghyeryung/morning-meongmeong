@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { StyleSheet, View, Text, Switch, TouchableOpacity } from "react-native";
-import { Icon } from "react-native-elements";
+import { StyleSheet, View, Text, Switch, TouchableOpacity, Image } from "react-native";
 
 import fonts from "../../styles/fonts";
 import colors from "../../styles/colors";
@@ -50,8 +49,9 @@ class ListItem extends Component {
                 <View style={styles.container}>
                     {
                         this.state.editing &&  <View style={styles.overlay}>
-                            <Icon name='times-circle' type='font-awesome'
-                                  color={colors.darker} size={50} onPress={this.deleteData}></Icon>
+                            <TouchableOpacity onPress={this.deleteData}>
+                                <Image name='rocket' source={require("../../assets/delete.png")} style={styles.img}></Image>
+                            </TouchableOpacity>
                         </View>
                     }
                     <Text style={[fonts.normal, styles.ampm]}>{this.props.ampm}</Text>
@@ -107,6 +107,10 @@ const styles = StyleSheet.create({
     },
     toggle: {
         shadowColor: 'transparent'
+    },
+    img: {
+        height: 50,
+        width: 50,
     }
 });
 
