@@ -5,7 +5,6 @@ INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main
 INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:1:1-26:12
 MERGED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:1:1-26:12
-MERGED from [:react-native-vector-icons] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:@react-native-community_async-storage] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-gesture-handler] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.59.8] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/cc55a55bf82ff11c9f821d02afaf732a/AndroidManifest.xml:2:1-13:12
@@ -132,8 +131,6 @@ uses-sdk
 INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml
-MERGED from [:react-native-vector-icons] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:@react-native-community_async-storage] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:@react-native-community_async-storage] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-gesture-handler] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
