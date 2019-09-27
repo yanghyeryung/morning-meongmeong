@@ -1,46 +1,48 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:1:1-26:12
-MERGED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:1:1-26:12
+ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:1:1-27:12
+MERGED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:1:1-27:12
+MERGED from [:react-native-background-job] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-background-job/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-27:12
 MERGED from [:@react-native-community_async-storage] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-gesture-handler] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [com.facebook.react:react-native:0.59.8] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/cc55a55bf82ff11c9f821d02afaf732a/AndroidManifest.xml:2:1-13:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/6ddd19ea37a2ce1eb783388d48c4a96d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/06c1d2a8d1132842e80af1c5499e6765/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/9b07b4a46815810e188cead5836536ec/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/0cf05700dc604f43fa5cbc8820534023/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/b24508233c9405b3b0e1578856f139f9/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/9fadd58ead7dae8e4f5375fba379636b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/3f5c45c402d15a652350c53b81b48725/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/e92a3a02aaee037a7d69d7c1d8a95c5b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/8d0c6b01815310ee63d9cf945e92e91d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/38d97a72455067f05f1ffcfd021e8789/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/e15c6aed432a4a797ea15d4832eb8a27/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/5e951357a2dafa2f57cfa31ffa2fa63e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/4b73cafe3a75230530cb939d63a4eca6/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/cfb1b931bc479efceafd5f16ce752cd5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/c8c70032f973d0709965eb1f8ffc6410/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/42e8ad7aa6cfb8df3ff9250cc6dc62f5/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/94e16a8fb948a08a1a4f4b948077c511/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/269925877bd35bc5589b03ef8520401d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/5ae73a06f5afcc3b9b4f052bbbc85158/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/2260d7410f9439654ad0473b27fc0384/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/15c8a1a8df9a1e1aa700584b5f419322/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/03b1cbd83f89f79495457a88ae912af6/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/302d64522bf80d7818c47604045a5822/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/a8c3e1dd31e257a8ca84e69abebdecf8/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/7ceafe0feffaa6b11ed8a72bd89ab9c6/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/69420506707413e06cacfb640d47287c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/606693c365625dcd6dc440c53ff0e6ae/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.react:react-native:0.59.8] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/caa35042fe88ee561cb4e05992bc19e5/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/08280c9dc05fc75eebdcdd65d950a279/AndroidManifest.xml:17:1-22:12
+MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ee8a03ade2435fa2ef9aefdcdfb7149b/AndroidManifest.xml:17:1-42:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/cc521ca3652e1583f83b2da339aae1e1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/23b89c63d96097cdb16b300846d1348a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/6bc5e6b4ebaf6e5ac9976217c2983f03/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ccafa89b6584f7cbdcdd59d2eb1b67c0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/3e65a7aadf41541f42850cc8bf90d5b3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ddbd1cc529a86eeb3352395daaf7ffd8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/4b7f3f358dbf459adf724e8bab78cbf7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/abcf8afbbfd672609cf214cf1166d97e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ec5be6bf3e566290dd7978b5d7111c42/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/f63d18b76884e5eec046313bf361a499/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/fd2a26626910473e40eac71397f1945b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/a211429eb80d7e443e0a6dd36119b583/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/eaab3a05f8192bae037b3c30c2cc75f1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ee043e396572407568eefd57334cb8cd/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/2523d81043926a9fdfacff26f60ad251/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ec7eb6f6a73cc918c2f5ee6d02c8bf83/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/960cc00dadd85395a586b574b7941a9a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/a9428e44a86f2a684c177557a4de15b1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/de3b712f827071088380e512240c90a2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/b293fe4fd03677a5e11d4432ad621b67/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/7b21deedb359a1cce5bd37482b3bf58a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/f3dead83804df7f146715e3acbae40be/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/46f5bf2fb922e4b01cc15b84f0c99dc0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/2081bef1ca0fbf6d53fe9181ba306866/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/330ce6e24a40854fadac6e9cb34e6e32/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/8f2016be31a7599519a721a6fc4911ec/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/430245424f8b27993ceaa96065ff1ec6/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/726b98cce23ff2c3534b2c6be11785f8/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/65c33a0dda1794356b3121e2deaec5c2/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/600f5b5556fa37ddc4ad0509bf0de557/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/9f4da4b21635f2139c2b2999874ea3b3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/a651094c056d606361dd345a575afd72/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/7ddbbb679d098ab4b5fa2d4c181d4915/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/f4df921618b9e31167b4120c1b1839f2/AndroidManifest.xml:2:1-13:12
-MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/8df557cd60b4c0a68e6787209d8ecfc7/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/7a7ac1d95d3a69feeb172433364de6f4/AndroidManifest.xml:2:1-9:12
 INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/debug/AndroidManifest.xml:2:1-8:12
 INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/debug/AndroidManifest.xml:2:1-8:12
 INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/debug/AndroidManifest.xml:2:1-8:12
@@ -51,13 +53,13 @@ INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/debu
 		INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:1:1-27:12
 		INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/debug/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/debug/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:1:1-27:12
 		INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -65,144 +67,156 @@ uses-permission#android.permission.INTERNET
 ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:4:5-67
 	android:name
 		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:5:22-74
 application
-ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:6:5-24:19
-MERGED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:6:5-24:19
-MERGED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:6:5-24:19
-MERGED from [com.facebook.react:react-native:0.59.8] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/cc55a55bf82ff11c9f821d02afaf732a/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.react:react-native:0.59.8] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/cc55a55bf82ff11c9f821d02afaf732a/AndroidManifest.xml:11:5-20
-MERGED from [com.android.support:support-compat:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/c8c70032f973d0709965eb1f8ffc6410/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/c8c70032f973d0709965eb1f8ffc6410/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/42e8ad7aa6cfb8df3ff9250cc6dc62f5/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/42e8ad7aa6cfb8df3ff9250cc6dc62f5/AndroidManifest.xml:22:5-23:19
+ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:7:5-25:19
+MERGED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:7:5-25:19
+MERGED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:7:5-25:19
+MERGED from [:react-native-background-job] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-background-job/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-25:19
+MERGED from [:react-native-background-job] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-background-job/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-25:19
+MERGED from [com.facebook.react:react-native:0.59.8] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/caa35042fe88ee561cb4e05992bc19e5/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.59.8] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/caa35042fe88ee561cb4e05992bc19e5/AndroidManifest.xml:11:5-20
+MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ee8a03ade2435fa2ef9aefdcdfb7149b/AndroidManifest.xml:26:5-40:19
+MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ee8a03ade2435fa2ef9aefdcdfb7149b/AndroidManifest.xml:26:5-40:19
+MERGED from [androidx.core:core:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ee043e396572407568eefd57334cb8cd/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ee043e396572407568eefd57334cb8cd/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/2523d81043926a9fdfacff26f60ad251/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/2523d81043926a9fdfacff26f60ad251/AndroidManifest.xml:22:5-23:19
 MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/f4df921618b9e31167b4120c1b1839f2/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/f4df921618b9e31167b4120c1b1839f2/AndroidManifest.xml:11:5-20
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/c8c70032f973d0709965eb1f8ffc6410/AndroidManifest.xml:22:18-91
+		ADDED from [androidx.core:core:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ee043e396572407568eefd57334cb8cd/AndroidManifest.xml:22:18-86
 	android:label
-		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:8:7-39
-		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:9:7-39
+		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:9:7-39
 	tools:ignore
 		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/debug/AndroidManifest.xml:7:75-114
 	android:roundIcon
-		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:10:7-52
-		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:11:7-52
+		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:11:7-52
 	tools:targetApi
 		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/debug/AndroidManifest.xml:7:54-74
 	android:icon
-		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:9:7-41
-		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:10:7-41
+		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:10:7-41
 	android:allowBackup
-		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:11:7-34
-		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:12:7-34
+		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:12:7-34
 	android:theme
-		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:12:7-38
-		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:13:7-38
+		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:13:7-38
 	android:usesCleartextTraffic
 		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/debug/AndroidManifest.xml:7:18-53
 	android:name
-		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:7:7-38
-		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:8:7-38
+		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:8:7-38
 activity#com.morningmeongmeong.MainActivity
-ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:13:7-22:18
+ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:14:7-23:18
 	android:label
-		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:16:9-41
 	android:windowSoftInputMode
-		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:17:9-51
+		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:18:9-51
 	android:configChanges
-		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:16:9-79
+		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:17:9-79
 	android:name
-		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:14:9-37
+		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:15:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:18:9-21:25
+ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:19:9-22:25
 action#android.intent.action.MAIN
-ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:19:13-65
+ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:20:13-65
 	android:name
-		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:19:21-62
+		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:20:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:20:13-73
+ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:21:13-73
 	android:name
-		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:20:23-70
+		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:21:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:23:7-84
+ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:24:7-84
 	android:name
-		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:23:17-81
+		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:24:17-81
 uses-sdk
 INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-background-job] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-background-job/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-background-job] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-background-job/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:@react-native-community_async-storage] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:@react-native-community_async-storage] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-gesture-handler] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-gesture-handler] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.59.8] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/cc55a55bf82ff11c9f821d02afaf732a/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.59.8] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/cc55a55bf82ff11c9f821d02afaf732a/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/6ddd19ea37a2ce1eb783388d48c4a96d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/6ddd19ea37a2ce1eb783388d48c4a96d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/06c1d2a8d1132842e80af1c5499e6765/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/06c1d2a8d1132842e80af1c5499e6765/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/9b07b4a46815810e188cead5836536ec/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/9b07b4a46815810e188cead5836536ec/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/0cf05700dc604f43fa5cbc8820534023/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/0cf05700dc604f43fa5cbc8820534023/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/b24508233c9405b3b0e1578856f139f9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/b24508233c9405b3b0e1578856f139f9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/9fadd58ead7dae8e4f5375fba379636b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/9fadd58ead7dae8e4f5375fba379636b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/3f5c45c402d15a652350c53b81b48725/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/3f5c45c402d15a652350c53b81b48725/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/e92a3a02aaee037a7d69d7c1d8a95c5b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/e92a3a02aaee037a7d69d7c1d8a95c5b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/8d0c6b01815310ee63d9cf945e92e91d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/8d0c6b01815310ee63d9cf945e92e91d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/38d97a72455067f05f1ffcfd021e8789/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/38d97a72455067f05f1ffcfd021e8789/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/e15c6aed432a4a797ea15d4832eb8a27/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/e15c6aed432a4a797ea15d4832eb8a27/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/5e951357a2dafa2f57cfa31ffa2fa63e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/5e951357a2dafa2f57cfa31ffa2fa63e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/4b73cafe3a75230530cb939d63a4eca6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/4b73cafe3a75230530cb939d63a4eca6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/cfb1b931bc479efceafd5f16ce752cd5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/cfb1b931bc479efceafd5f16ce752cd5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/c8c70032f973d0709965eb1f8ffc6410/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/c8c70032f973d0709965eb1f8ffc6410/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/42e8ad7aa6cfb8df3ff9250cc6dc62f5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/42e8ad7aa6cfb8df3ff9250cc6dc62f5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/94e16a8fb948a08a1a4f4b948077c511/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/94e16a8fb948a08a1a4f4b948077c511/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/269925877bd35bc5589b03ef8520401d/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/269925877bd35bc5589b03ef8520401d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/5ae73a06f5afcc3b9b4f052bbbc85158/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/5ae73a06f5afcc3b9b4f052bbbc85158/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/2260d7410f9439654ad0473b27fc0384/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/2260d7410f9439654ad0473b27fc0384/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/15c8a1a8df9a1e1aa700584b5f419322/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/15c8a1a8df9a1e1aa700584b5f419322/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/03b1cbd83f89f79495457a88ae912af6/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/03b1cbd83f89f79495457a88ae912af6/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/302d64522bf80d7818c47604045a5822/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/302d64522bf80d7818c47604045a5822/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/a8c3e1dd31e257a8ca84e69abebdecf8/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/a8c3e1dd31e257a8ca84e69abebdecf8/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/7ceafe0feffaa6b11ed8a72bd89ab9c6/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/7ceafe0feffaa6b11ed8a72bd89ab9c6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/69420506707413e06cacfb640d47287c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/69420506707413e06cacfb640d47287c/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/606693c365625dcd6dc440c53ff0e6ae/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/606693c365625dcd6dc440c53ff0e6ae/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.59.8] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/caa35042fe88ee561cb4e05992bc19e5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.59.8] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/caa35042fe88ee561cb4e05992bc19e5/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/08280c9dc05fc75eebdcdd65d950a279/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/08280c9dc05fc75eebdcdd65d950a279/AndroidManifest.xml:20:5-44
+MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ee8a03ade2435fa2ef9aefdcdfb7149b/AndroidManifest.xml:22:5-24:41
+MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ee8a03ade2435fa2ef9aefdcdfb7149b/AndroidManifest.xml:22:5-24:41
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/cc521ca3652e1583f83b2da339aae1e1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/cc521ca3652e1583f83b2da339aae1e1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/23b89c63d96097cdb16b300846d1348a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/23b89c63d96097cdb16b300846d1348a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/6bc5e6b4ebaf6e5ac9976217c2983f03/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/6bc5e6b4ebaf6e5ac9976217c2983f03/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ccafa89b6584f7cbdcdd59d2eb1b67c0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ccafa89b6584f7cbdcdd59d2eb1b67c0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/3e65a7aadf41541f42850cc8bf90d5b3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/3e65a7aadf41541f42850cc8bf90d5b3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ddbd1cc529a86eeb3352395daaf7ffd8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ddbd1cc529a86eeb3352395daaf7ffd8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/4b7f3f358dbf459adf724e8bab78cbf7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/4b7f3f358dbf459adf724e8bab78cbf7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/abcf8afbbfd672609cf214cf1166d97e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/abcf8afbbfd672609cf214cf1166d97e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ec5be6bf3e566290dd7978b5d7111c42/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ec5be6bf3e566290dd7978b5d7111c42/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/f63d18b76884e5eec046313bf361a499/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/f63d18b76884e5eec046313bf361a499/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/fd2a26626910473e40eac71397f1945b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/fd2a26626910473e40eac71397f1945b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/a211429eb80d7e443e0a6dd36119b583/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/a211429eb80d7e443e0a6dd36119b583/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/eaab3a05f8192bae037b3c30c2cc75f1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/eaab3a05f8192bae037b3c30c2cc75f1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ee043e396572407568eefd57334cb8cd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ee043e396572407568eefd57334cb8cd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/2523d81043926a9fdfacff26f60ad251/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/2523d81043926a9fdfacff26f60ad251/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ec7eb6f6a73cc918c2f5ee6d02c8bf83/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ec7eb6f6a73cc918c2f5ee6d02c8bf83/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/960cc00dadd85395a586b574b7941a9a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/960cc00dadd85395a586b574b7941a9a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/a9428e44a86f2a684c177557a4de15b1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/a9428e44a86f2a684c177557a4de15b1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/de3b712f827071088380e512240c90a2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/de3b712f827071088380e512240c90a2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/b293fe4fd03677a5e11d4432ad621b67/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/b293fe4fd03677a5e11d4432ad621b67/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/7b21deedb359a1cce5bd37482b3bf58a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/7b21deedb359a1cce5bd37482b3bf58a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/f3dead83804df7f146715e3acbae40be/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/f3dead83804df7f146715e3acbae40be/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/46f5bf2fb922e4b01cc15b84f0c99dc0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/46f5bf2fb922e4b01cc15b84f0c99dc0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/2081bef1ca0fbf6d53fe9181ba306866/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/2081bef1ca0fbf6d53fe9181ba306866/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/330ce6e24a40854fadac6e9cb34e6e32/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/330ce6e24a40854fadac6e9cb34e6e32/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/8f2016be31a7599519a721a6fc4911ec/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/8f2016be31a7599519a721a6fc4911ec/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/430245424f8b27993ceaa96065ff1ec6/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/430245424f8b27993ceaa96065ff1ec6/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/726b98cce23ff2c3534b2c6be11785f8/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/726b98cce23ff2c3534b2c6be11785f8/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/65c33a0dda1794356b3121e2deaec5c2/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/65c33a0dda1794356b3121e2deaec5c2/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/600f5b5556fa37ddc4ad0509bf0de557/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/600f5b5556fa37ddc4ad0509bf0de557/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/9f4da4b21635f2139c2b2999874ea3b3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/9f4da4b21635f2139c2b2999874ea3b3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/a651094c056d606361dd345a575afd72/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/a651094c056d606361dd345a575afd72/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/7ddbbb679d098ab4b5fa2d4c181d4915/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/7ddbbb679d098ab4b5fa2d4c181d4915/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/f4df921618b9e31167b4120c1b1839f2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/f4df921618b9e31167b4120c1b1839f2/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/8df557cd60b4c0a68e6787209d8ecfc7/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/8df557cd60b4c0a68e6787209d8ecfc7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/7a7ac1d95d3a69feeb172433364de6f4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/7a7ac1d95d3a69feeb172433364de6f4/AndroidManifest.xml:5:5-7:41
 INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/debug/AndroidManifest.xml
 INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
@@ -215,3 +229,45 @@ uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/debug/AndroidManifest.xml:5:5-77
 	android:name
 		ADDED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/debug/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:react-native-background-job] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-background-job/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from [:react-native-background-job] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-background-job/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [:react-native-background-job] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-background-job/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from [:react-native-background-job] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-background-job/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-78
+service#com.pilloxa.backgroundjob.BackgroundJob
+ADDED from [:react-native-background-job] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-background-job/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-18:72
+	android:exported
+		ADDED from [:react-native-background-job] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-background-job/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-36
+	android:permission
+		ADDED from [:react-native-background-job] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-background-job/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-69
+	android:name
+		ADDED from [:react-native-background-job] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-background-job/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-67
+service#com.pilloxa.backgroundjob.ExactJob
+ADDED from [:react-native-background-job] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-background-job/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-21:38
+	android:enabled
+		ADDED from [:react-native-background-job] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-background-job/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-35
+	android:name
+		ADDED from [:react-native-background-job] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-background-job/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-62
+service#com.pilloxa.backgroundjob.ReactNativeEventStarter$MyHeadlessJsTaskService
+ADDED from [:react-native-background-job] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-background-job/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-24:38
+	android:enabled
+		ADDED from [:react-native-background-job] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-background-job/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-35
+	android:name
+		ADDED from [:react-native-background-job] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-background-job/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-101
+service#com.firebase.jobdispatcher.GooglePlayReceiver
+ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ee8a03ade2435fa2ef9aefdcdfb7149b/AndroidManifest.xml:32:9-39:19
+	android:exported
+		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ee8a03ade2435fa2ef9aefdcdfb7149b/AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ee8a03ade2435fa2ef9aefdcdfb7149b/AndroidManifest.xml:35:13-93
+	android:name
+		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ee8a03ade2435fa2ef9aefdcdfb7149b/AndroidManifest.xml:33:13-73
+intent-filter#action:name:com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ee8a03ade2435fa2ef9aefdcdfb7149b/AndroidManifest.xml:36:13-38:29
+action#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ee8a03ade2435fa2ef9aefdcdfb7149b/AndroidManifest.xml:37:17-87
+	android:name
+		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ee8a03ade2435fa2ef9aefdcdfb7149b/AndroidManifest.xml:37:25-84

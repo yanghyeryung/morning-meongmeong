@@ -4,7 +4,7 @@
             "outputFile": "/Users/yanghyeryung/htdocs/morning-meongmeong/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml",
             "map": [
                 {
-                    "source": "/Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/6ddd19ea37a2ce1eb783388d48c4a96d/res/values-zh-rTW/values-zh-rTW.xml",
+                    "source": "/Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/08280c9dc05fc75eebdcdd65d950a279/res/values-zh-rTW/values-zh-rTW.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/c8c70032f973d0709965eb1f8ffc6410/res/values-zh-rTW/values-zh-rTW.xml",
+                    "source": "/Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ee043e396572407568eefd57334cb8cd/res/values-zh-rTW/values-zh-rTW.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

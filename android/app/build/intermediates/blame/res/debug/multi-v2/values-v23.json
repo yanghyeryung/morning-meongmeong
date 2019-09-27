@@ -4,7 +4,7 @@
             "outputFile": "/Users/yanghyeryung/htdocs/morning-meongmeong/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/6ddd19ea37a2ce1eb783388d48c4a96d/res/values-v23/values-v23.xml",
+                    "source": "/Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/08280c9dc05fc75eebdcdd65d950a279/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
