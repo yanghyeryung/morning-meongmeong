@@ -4,15 +4,6 @@ import { AndroidBackHandler } from 'react-navigation-backhandler';
 
 import colors from "../../styles/colors";
 
-const data = {
-    dogCounts: {
-        two: false, four: false, six: false, eight: true
-    },
-    dogSpeeds: {
-        slow: false, normal: true, fast: false
-    },
-};
-
 class AlarmScreen extends Component {
     constructor(props){
         super(props);
@@ -20,14 +11,16 @@ class AlarmScreen extends Component {
         this.state = {
             dogs: [],
         };
-
-        this.dogCount = this.getDogCount(data.dogCounts);
-        this.dogSpeed = this.getDogSpeed(data.dogSpeeds);
-        this.windowWidth = Dimensions.get('window').width;
-        this.widowHeight = Dimensions.get('window').height;
     }
 
     componentDidMount() {
+        const { navigation } = this.props;
+
+        this.dogCount = this.getDogCount(navigation.getParam('dogCounts'));
+        this.dogSpeed = this.getDogSpeed(navigation.getParam('dogSpeeds'));
+        this.windowWidth = Dimensions.get('window').width;
+        this.widowHeight = Dimensions.get('window').height;
+
         this.initDog();
 
         this.interval = setInterval(() => {
@@ -110,8 +103,7 @@ class AlarmScreen extends Component {
         this.setState({dogs: dogs});
 
         if(dogs.length === 0) {
-            // 앱 종료
-
+            this.props.navigation.navigate('List');
         }
     };
 

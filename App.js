@@ -21,7 +21,8 @@ const backgroundJob = {
                         if(now.format('A') === alarm.ampm &&
                             now.format('hh') === alarm.hour &&
                             now.format('mm') === alarm.minute &&
-                            alarm.days[now.format('ddd').toLowerCase()] === true) {
+                            alarm.days[now.format('ddd').toLowerCase()] === true &&
+                            alarm.toggle) {
                                 utils.navigate('Alarm', alarm);
                         }
                     });
@@ -51,7 +52,7 @@ class App extends React.Component {
     componentDidMount() {
         BackgroundJob.schedule({
             jobKey: "myJob",
-            period: 1000,
+            period: 10000,
             exact: true,
             allowExecutionInForeground: true
         });
