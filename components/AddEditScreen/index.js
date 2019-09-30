@@ -13,7 +13,7 @@ class AddEditScreen extends Component {
             key: null,
             ampm: 'AM',
             hour: '01',
-            second: '00',
+            minute: '00',
             days: {
                 mon: false, tue: false, wen: false, thu: false,
                 fri: false, sat: false, sun: false,
@@ -38,7 +38,7 @@ class AddEditScreen extends Component {
                     key: key,
                     ampm: navigation.getParam('ampm'),
                     hour: navigation.getParam('hour'),
-                    second: navigation.getParam('second'),
+                    minute: navigation.getParam('minute'),
                     days: navigation.getParam('days'),
                     dogCounts: navigation.getParam('dogCounts'),
                     dogSpeeds:navigation.getParam('dogSpeeds'),
@@ -102,7 +102,7 @@ class AddEditScreen extends Component {
     };
 
     render() {
-        let i, hourPickerItems = [], secondPickerItems = [];
+        let i, hourPickerItems = [], minutePickerItems = [];
 
         for(i=1; i<=12; i++){
             let str = i.toString();
@@ -115,7 +115,7 @@ class AddEditScreen extends Component {
             let str = i.toString();
 
             str.length === 1 && (str = '0' + str);
-            secondPickerItems.push(<Picker.Item key={i} label={str} value={str} />);
+            minutePickerItems.push(<Picker.Item key={i} label={str} value={str} />);
         }
 
         return (
@@ -135,9 +135,9 @@ class AddEditScreen extends Component {
 
                         </Picker>
 
-                        <Picker selectedValue={this.state.second} style={styles.value}
-                                onValueChange={(itemValue) => this.setState({second: itemValue})}>
-                            {secondPickerItems}
+                        <Picker selectedValue={this.state.minute} style={styles.value}
+                                onValueChange={(itemValue) => this.setState({minute: itemValue})}>
+                            {minutePickerItems}
                         </Picker>
                     </View>
 

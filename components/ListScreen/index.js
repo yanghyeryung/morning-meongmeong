@@ -74,7 +74,7 @@ class ListScreen extends Component {
 
     renderItem = ({ item }) => {
         return (
-            <ListItem listKey={item.key} ampm={item.ampm} hour={item.hour} second={item.second} toggle={item.toggle}
+            <ListItem listKey={item.key} ampm={item.ampm} hour={item.hour} minute={item.minute} toggle={item.toggle}
                       days={item.days} dogCounts={item.dogCounts} dogSpeeds={item.dogSpeeds}
                       changeSwitch={this.changeSwitch} moveEditScreen={this.moveEditScreen} deleteData={this.deleteData}></ListItem>
         );

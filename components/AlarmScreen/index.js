@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { StyleSheet, View, Image, Dimensions, TouchableOpacity } from "react-native";
+import { AndroidBackHandler } from 'react-navigation-backhandler';
 
 import colors from "../../styles/colors";
 
@@ -114,6 +115,9 @@ class AlarmScreen extends Component {
         }
     };
 
+    onBackButtonPressAndroid = () => {
+        return true;
+    };
 
     render() {
         let dogs = [];
@@ -128,9 +132,11 @@ class AlarmScreen extends Component {
         });
 
         return (
-            <View style={styles.container}>
-                {dogs}
-            </View>
+            <AndroidBackHandler onBackPress={this.onBackButtonPressAndroid}>
+                <View style={styles.container}>
+                    {dogs}
+                </View>
+            </AndroidBackHandler>
         );
     }
 }

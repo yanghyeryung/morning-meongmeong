@@ -55,7 +55,7 @@ class ListItem extends Component {
                         </View>
                     }
                     <Text style={[fonts.normal, styles.ampm]}>{this.props.ampm}</Text>
-                    <Text style={[fonts.big, styles.time]}>{this.props.hour}:{this.props.second}</Text>
+                    <Text style={[fonts.big, styles.time]}>{this.props.hour}:{this.props.minute}</Text>
                     <View style={[fonts.normal, styles.days]}>{
                         totalDays.map((day, idx) => <Text key={idx} style={[styles.day, this.props.days[day.key] && styles.activeDay]}>{day.label}</Text>)
                     }</View>
