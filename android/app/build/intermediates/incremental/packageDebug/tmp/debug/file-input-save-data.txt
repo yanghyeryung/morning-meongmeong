@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Sep 30 15:45:16 KST 2019
+#Mon Sep 30 16:35:32 KST 2019
 5.base=/Users/yanghyeryung/htdocs/morning-meongmeong/android/app/build/intermediates/transforms/mergeJniLibs/debug/0
 42.base=/Users/yanghyeryung/htdocs/morning-meongmeong/android/app/build/intermediates/transforms/mergeJniLibs/debug/0
 22.path=lib/x86_64/libfb.so
