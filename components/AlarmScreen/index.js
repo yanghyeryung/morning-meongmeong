@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { StyleSheet, View, Image, Dimensions, TouchableOpacity } from "react-native";
 import { AndroidBackHandler } from 'react-navigation-backhandler';
+import Sound from 'react-native-sound';
 
 import colors from "../../styles/colors";
 
@@ -37,10 +38,21 @@ class AlarmScreen extends Component {
 
             this.setState({dogs: dogs});
         }, this.dogSpeed);
+
+        this.sound = new Sound('dog_bgm.mp3', null, (error) => {
+            if (error) {
+                // do something
+            }
+
+            this.sound.play();
+        });
     }
 
     componentWillUnmount() {
         clearInterval(this.interval);
+
+        this.sound.stop();
+        this.sound.release();
     }
 
     initDog = () => {
@@ -103,6 +115,9 @@ class AlarmScreen extends Component {
         this.setState({dogs: dogs});
 
         if(dogs.length === 0) {
+            this.sound.stop();
+            this.sound.release();
+
             this.props.navigation.navigate('List');
         }
     };
