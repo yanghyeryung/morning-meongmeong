@@ -87,7 +87,7 @@ class ListScreen extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <FlatList data={this.state.dataList} renderItem={this.renderItem}/>
+                <FlatList data={[...this.state.dataList, {key: 'empty'}]} renderItem={this.renderItem}/>
                 <TouchableOpacity style={styles.button} onPress={this.moveEditScreen}>
                     <Image name='rocket' source={require("../../assets/plus.png")} style={styles.img}></Image>
                 </TouchableOpacity>

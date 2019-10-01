@@ -129,13 +129,13 @@ class AddEditScreen extends Component {
                             <Picker.Item label="PM" value="PM" />
                         </Picker>
 
-                        <Picker selectedValue={this.state.hour} style={styles.value}
+                        <Picker selectedValue={this.state.hour} style={[styles.value, styles.picker]}
                                 onValueChange={(itemValue) => this.setState({hour: itemValue})}>
                             {hourPickerItems}
 
                         </Picker>
 
-                        <Picker selectedValue={this.state.minute} style={styles.value}
+                        <Picker selectedValue={this.state.minute} style={[styles.value, styles.picker]}
                                 onValueChange={(itemValue) => this.setState({minute: itemValue})}>
                             {minutePickerItems}
                         </Picker>
@@ -243,6 +243,9 @@ const styles = StyleSheet.create({
     button: {
         flex: 1,
     },
+    picker: {
+        height: 400,
+    }
 });
 
 export default AddEditScreen;

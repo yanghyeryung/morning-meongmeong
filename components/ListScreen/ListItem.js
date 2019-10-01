@@ -46,22 +46,26 @@ class ListItem extends Component {
     render() {
         return (
             <TouchableOpacity onPress={this.onPress} onLongPress={this.showDeleteButton}>
-                <View style={styles.container}>
-                    {
-                        this.state.editing &&  <View style={styles.overlay}>
-                            <TouchableOpacity onPress={this.deleteData}>
-                                <Image name='rocket' source={require("../../assets/delete.png")} style={styles.img}></Image>
-                            </TouchableOpacity>
-                        </View>
-                    }
-                    <Text style={[fonts.normal, styles.ampm]}>{this.props.ampm}</Text>
-                    <Text style={[fonts.big, styles.time]}>{this.props.hour}:{this.props.minute}</Text>
-                    <View style={[fonts.normal, styles.days]}>{
-                        totalDays.map((day, idx) => <Text key={idx} style={[styles.day, this.props.days[day.key] && styles.activeDay]}>{day.label}</Text>)
-                    }</View>
-                    <Switch value={this.props.toggle} thumbColor={this.props.toggle ? colors.darker : '#f3f3f3'}
-                            onValueChange={this.toggle} trackColor={{true: colors.base, false: '#e1e1e1'}}></Switch>
-                </View>
+                {
+                    this.props.listKey !== 'empty'?
+                        <View style={styles.container}>
+                            {
+                                this.state.editing &&  <View style={styles.overlay}>
+                                    <TouchableOpacity onPress={this.deleteData}>
+                                        <Image name='rocket' source={require("../../assets/delete.png")} style={styles.img}></Image>
+                                    </TouchableOpacity>
+                                </View>
+                            }
+                            <Text style={[fonts.normal, styles.ampm]}>{this.props.ampm}</Text>
+                            <Text style={[fonts.big, styles.time]}>{this.props.hour}:{this.props.minute}</Text>
+                            <View style={[fonts.normal, styles.days]}>{
+                                totalDays.map((day, idx) => <Text key={idx} style={[styles.day, this.props.days[day.key] && styles.activeDay]}>{day.label}</Text>)
+                            }</View>
+                            <Switch value={this.props.toggle} thumbColor={this.props.toggle ? colors.darker : '#f3f3f3'}
+                                    onValueChange={this.toggle} trackColor={{true: colors.base, false: '#e1e1e1'}}></Switch>
+                        </View>:
+                        <View style={styles.empty}></View>
+                }
             </TouchableOpacity>
         );
     }
@@ -75,6 +79,10 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         padding: 10
+    },
+    empty: {
+        backgroundColor: '#FFF',
+        height: 40,
     },
     overlay: {
         position: 'absolute',
