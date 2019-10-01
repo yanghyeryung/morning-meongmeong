@@ -14,6 +14,9 @@ const backgroundJob = {
     jobKey: "myJob",
     job: () => {
         let now = new moment();
+
+        console.log(now.format('hh:mm:ss'));
+
         utils.getList()
             .then(alarmList => {
                 if (alarmList) {
@@ -52,7 +55,7 @@ class App extends React.Component {
     componentDidMount() {
         BackgroundJob.schedule({
             jobKey: "myJob",
-            period: 10000,
+            period: 60000,
             exact: true,
             allowExecutionInForeground: true
         });
