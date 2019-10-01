@@ -828,6 +828,10 @@
         "source": "/Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/08280c9dc05fc75eebdcdd65d950a279/res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
     },
     {
+        "merged": "/Users/yanghyeryung/htdocs/morning-meongmeong/android/app/build/intermediates/res/merged/debug/layout_spinner_view.xml.flat",
+        "source": "/Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-picker-module/android/build/intermediates/packaged_res/debug/layout/spinner_view.xml"
+    },
+    {
         "merged": "/Users/yanghyeryung/htdocs/morning-meongmeong/android/app/build/intermediates/res/merged/debug/layout_abc_screen_toolbar.xml.flat",
         "source": "/Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/08280c9dc05fc75eebdcdd65d950a279/res/layout/abc_screen_toolbar.xml"
     },
@@ -1062,6 +1066,10 @@
     {
         "merged": "/Users/yanghyeryung/htdocs/morning-meongmeong/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/08280c9dc05fc75eebdcdd65d950a279/res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/yanghyeryung/htdocs/morning-meongmeong/android/app/build/intermediates/res/merged/debug/layout_spinner_item.xml.flat",
+        "source": "/Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-picker-module/android/build/intermediates/packaged_res/debug/layout/spinner_item.xml"
     },
     {
         "merged": "/Users/yanghyeryung/htdocs/morning-meongmeong/android/app/build/intermediates/res/merged/debug/color_abc_search_url_text.xml.flat",
@@ -1446,6 +1454,10 @@
     {
         "merged": "/Users/yanghyeryung/htdocs/morning-meongmeong/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "/Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/yanghyeryung/htdocs/morning-meongmeong/android/app/build/intermediates/res/merged/debug/drawable_border_bottom.xml.flat",
+        "source": "/Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-picker-module/android/build/intermediates/packaged_res/debug/drawable/border_bottom.xml"
     },
     {
         "merged": "/Users/yanghyeryung/htdocs/morning-meongmeong/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",

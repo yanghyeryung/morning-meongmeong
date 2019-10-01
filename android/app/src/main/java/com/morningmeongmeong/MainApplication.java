@@ -3,6 +3,7 @@ package com.morningmeongmeong;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.taluttasgiran.pickermodule.ReactNativePickerModulePackage;
 import com.zmxv.RNSound.RNSoundPackage;
 import com.pilloxa.backgroundjob.BackgroundJobPackage;
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
@@ -27,6 +28,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new ReactNativePickerModulePackage(),
             new RNSoundPackage(),
             new BackgroundJobPackage(),
             new AsyncStoragePackage(),

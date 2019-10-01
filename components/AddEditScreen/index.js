@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { StyleSheet, View, Text, Picker, Button } from "react-native";
+import ReactNativePickerModule from 'react-native-picker-module';
 
 import utils from "../../utils";
 import fonts from "../../styles/fonts";
@@ -108,14 +109,14 @@ class AddEditScreen extends Component {
             let str = i.toString();
 
             str.length === 1 && (str = '0' + str);
-            hourPickerItems.push(<Picker.Item key={i} label={str} value={str} />);
+            hourPickerItems.push(str);
         }
 
         for(i=0; i<=59; i++){
             let str = i.toString();
 
             str.length === 1 && (str = '0' + str);
-            minutePickerItems.push(<Picker.Item key={i} label={str} value={str} />);
+            minutePickerItems.push(str);
         }
 
         return (
@@ -123,22 +124,30 @@ class AddEditScreen extends Component {
                 <View styles={styles.form}>
                     <Text style={[fonts.normal, styles.labelContainer]}>시간</Text>
                     <View style={styles.valueContainer}>
-                        <Picker selectedValue={this.state.ampm} style={styles.value}
-                            onValueChange={(itemValue) => this.setState({ampm: itemValue})}>
-                            <Picker.Item label="AM" value="AM" />
-                            <Picker.Item label="PM" value="PM" />
-                        </Picker>
-
-                        <Picker selectedValue={this.state.hour} style={[styles.value, styles.picker]}
-                                onValueChange={(itemValue) => this.setState({hour: itemValue})}>
-                            {hourPickerItems}
-
-                        </Picker>
-
-                        <Picker selectedValue={this.state.minute} style={[styles.value, styles.picker]}
-                                onValueChange={(itemValue) => this.setState({minute: itemValue})}>
-                            {minutePickerItems}
-                        </Picker>
+                        <View style={styles.value}>
+                            <Button title={this.state.ampm} color={colors.base}
+                                    onPress={() => this.amPickerRef.show()} style={styles.value}/>
+                        </View>
+                        <View style={styles.value}>
+                            <Button title={this.state.hour} color={colors.base}
+                                    onPress={() => this.hourPickerRef.show()} style={styles.value}/>
+                        </View>
+                        <View style={styles.value}>
+                            <Button title={this.state.minute} color={colors.base}
+                                    onPress={() => this.minutePickerRef.show()} style={styles.value}/>
+                        </View>
+                        <ReactNativePickerModule pickerRef={e => this.amPickerRef = e} value={this.state.ampmIdx} style={styles.value}
+                             onValueChange={(itemValue, index) => this.setState({ampm: itemValue, ampmIdx: index})}
+                             title='AM/PM' items={['AM', 'PM']}>
+                        </ReactNativePickerModule>
+                        <ReactNativePickerModule pickerRef={e => this.hourPickerRef = e} value={this.state.hourIdx} style={styles.value}
+                             onValueChange={(itemValue, index) => this.setState({hour: itemValue, hourIdx: index})}
+                             title='Hour' items={hourPickerItems}>
+                        </ReactNativePickerModule>
+                        <ReactNativePickerModule pickerRef={e => this.minutePickerRef = e} value={this.state.minuteIdx} style={styles.value}
+                             onValueChange={(itemValue, index) => this.setState({minute: itemValue, minuteIdx: index})}
+                             title='Minute' items={minutePickerItems}>
+                        </ReactNativePickerModule>
                     </View>
 
                     <Text style={[fonts.normal, styles.labelContainer]}>일</Text>
@@ -233,6 +242,7 @@ const styles = StyleSheet.create({
     },
     value: {
         flex: 1,
+        padding: 2,
     },
     buttonContainer: {
         position: 'absolute',
@@ -243,9 +253,6 @@ const styles = StyleSheet.create({
     button: {
         flex: 1,
     },
-    picker: {
-        height: 400,
-    }
 });
 
 export default AddEditScreen;

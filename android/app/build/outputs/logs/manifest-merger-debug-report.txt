@@ -5,12 +5,14 @@ INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main
 INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:1:1-27:12
 INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:1:1-27:12
 MERGED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml:1:1-27:12
+MERGED from [:react-native-picker-module] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-picker-module/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-sound] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-sound/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-12:12
 MERGED from [:react-native-background-job] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-background-job/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-27:12
 MERGED from [:@react-native-community_async-storage] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-gesture-handler] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.59.8] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/caa35042fe88ee561cb4e05992bc19e5/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/08280c9dc05fc75eebdcdd65d950a279/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/7810765cc9f5bf001f2859fd2b96bf70/AndroidManifest.xml:17:1-22:12
 MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ee8a03ade2435fa2ef9aefdcdfb7149b/AndroidManifest.xml:17:1-42:12
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/cc521ca3652e1583f83b2da339aae1e1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/23b89c63d96097cdb16b300846d1348a/AndroidManifest.xml:17:1-22:12
@@ -33,10 +35,10 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yanghyeryung/.grad
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/de3b712f827071088380e512240c90a2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/b293fe4fd03677a5e11d4432ad621b67/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/7b21deedb359a1cce5bd37482b3bf58a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/330ce6e24a40854fadac6e9cb34e6e32/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/f3dead83804df7f146715e3acbae40be/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/46f5bf2fb922e4b01cc15b84f0c99dc0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/2081bef1ca0fbf6d53fe9181ba306866/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/330ce6e24a40854fadac6e9cb34e6e32/AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/8f2016be31a7599519a721a6fc4911ec/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/430245424f8b27993ceaa96065ff1ec6/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/9f4da4b21635f2139c2b2999874ea3b3/AndroidManifest.xml:2:1-9:12
@@ -142,6 +144,8 @@ uses-sdk
 INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/yanghyeryung/htdocs/morning-meongmeong/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-picker-module] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-picker-module/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-picker-module] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-picker-module/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-sound] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-sound/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
 MERGED from [:react-native-sound] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-sound/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
 MERGED from [:react-native-background-job] /Users/yanghyeryung/htdocs/morning-meongmeong/node_modules/react-native-background-job/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
@@ -154,6 +158,8 @@ MERGED from [com.facebook.react:react-native:0.59.8] /Users/yanghyeryung/.gradle
 MERGED from [com.facebook.react:react-native:0.59.8] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/caa35042fe88ee561cb4e05992bc19e5/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/08280c9dc05fc75eebdcdd65d950a279/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/08280c9dc05fc75eebdcdd65d950a279/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/7810765cc9f5bf001f2859fd2b96bf70/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/7810765cc9f5bf001f2859fd2b96bf70/AndroidManifest.xml:20:5-44
 MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ee8a03ade2435fa2ef9aefdcdfb7149b/AndroidManifest.xml:22:5-24:41
 MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/ee8a03ade2435fa2ef9aefdcdfb7149b/AndroidManifest.xml:22:5-24:41
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/cc521ca3652e1583f83b2da339aae1e1/AndroidManifest.xml:20:5-44
@@ -198,14 +204,14 @@ MERGED from [androidx.print:print:1.0.0] /Users/yanghyeryung/.gradle/caches/tran
 MERGED from [androidx.print:print:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/b293fe4fd03677a5e11d4432ad621b67/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/7b21deedb359a1cce5bd37482b3bf58a/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/7b21deedb359a1cce5bd37482b3bf58a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/330ce6e24a40854fadac6e9cb34e6e32/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/330ce6e24a40854fadac6e9cb34e6e32/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/f3dead83804df7f146715e3acbae40be/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/f3dead83804df7f146715e3acbae40be/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/46f5bf2fb922e4b01cc15b84f0c99dc0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/46f5bf2fb922e4b01cc15b84f0c99dc0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/2081bef1ca0fbf6d53fe9181ba306866/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/2081bef1ca0fbf6d53fe9181ba306866/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/330ce6e24a40854fadac6e9cb34e6e32/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/330ce6e24a40854fadac6e9cb34e6e32/AndroidManifest.xml:20:5-44
 MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/8f2016be31a7599519a721a6fc4911ec/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/8f2016be31a7599519a721a6fc4911ec/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/yanghyeryung/.gradle/caches/transforms-2/files-2.1/430245424f8b27993ceaa96065ff1ec6/AndroidManifest.xml:5:5-7:41
